@@ -16,7 +16,7 @@ class ig.DeptList
       ..attr \class ~>
           cls = "department color-#{@colorScale it.diff}"
           cls += switch
-          | it.sum >= 35 * 1e9 => cls += " big"
+          | it.sum >= 37 * 1e9 => cls += " big"
           | it.sum > 5 * 1e9 => cls += " small1"
           | otherwise => " small2"
       ..append \h2

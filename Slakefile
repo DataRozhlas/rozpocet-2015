@@ -13,7 +13,7 @@ externalStyles =
   ...
 
 externalData =
-  "rozpocet": "#__dirname/data/rozpocet.tsv"
+  "rozpocet": "#__dirname/data/rozpocet15.tsv"
 
 preferScripts = <[ postInit.js _loadData.js ../data.js init.js _loadExternal.js]>
 deferScripts = <[ kandidatka.js base.js ]>

@@ -1,10 +1,10 @@
 class ig.Urad
   (@cislo, @nazev, ...rozpoctyTotal) ->
     @polozky = []
-    @sum = rozpoctyTotal[0]
+    @sum = rozpoctyTotal[0] || 0
     @polozkySum = 0
     @polozkySumLast = 0
-    @last = rozpoctyTotal[1]
+    @last = rozpoctyTotal[1] || 0
     @diff = @sum / @last - 1
 
   add: (nazev, ...rozpocty) ->
@@ -22,8 +22,8 @@ class ig.Urad
 class Polozka
   (@nazev, ...rozpocty) ->
     @rozpocty = rozpocty.map parseInt _, 10
-    @value = @rozpocty[0]
-    @lastValue = @rozpocty[1]
+    @value = @rozpocty[0] || 0
+    @lastValue = @rozpocty[1] || 0
     @diff = @value / @lastValue - 1
     if not isFinite @diff
       @diff = 0
