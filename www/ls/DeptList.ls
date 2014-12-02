@@ -62,7 +62,7 @@ class ig.DeptList
                     ..attr \class -> "diff " + if it.diff > 0 then "positive" else "negative"
                     ..html ->
                       d = Math.abs it.diff
-                      sign = if it.diff > 0 then "+" else "&minus;"
+                      sign = if it.diff > 0 then "+" else if it.diff < 0 then "&minus;" else ""
                       "#{sign}#{ig.utils.formatNumber d * 100, 1} %"
 
 toNiceNumber = (value) ->
