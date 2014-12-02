@@ -13,7 +13,12 @@ class ig.DeptList
       ..range <[0 1 2 3 4 5 6 7]>
 
     @element.selectAll \div.department .data @urady .enter!append \div
-      ..attr \class ~> "department color-#{@colorScale it.diff}"
+      ..attr \class ~>
+          cls = "department color-#{@colorScale it.diff}"
+          cls += switch
+          | it.sum >= 35 * 1e9 => cls += " big"
+          | it.sum > 5 * 1e9 => cls += " small1"
+          | otherwise => " small2"
       ..append \h2
       ..append \h3
         ..html (.nazev)
@@ -24,8 +29,15 @@ class ig.DeptList
           ..style \width ~> "#{@scale it.sum}px"
           ..style \height ~> "#{@scale it.sum}px"
         ..append \h4
-          ..classed \bigEnough -> it.sum > 30 * 1e9
-          ..html -> "#{toNiceNumber it.sum}"
+          ..append \span
+            ..attr \class \rozpocet
+            ..html -> "#{toNiceNumber it.sum}"
+          ..append \span
+            ..attr \class -> "diff " + if it.diff > 0 then "positive" else "negative"
+            ..html ->
+              d = Math.abs it.diff
+              sign = if it.diff > 0 then "+" else "&minus;"
+              "#{sign}#{ig.utils.formatNumber d * 100, 1} %"
           ..style \font-size ~> "#{@fontScale it.sum}px"
 
 toNiceNumber = (value) ->

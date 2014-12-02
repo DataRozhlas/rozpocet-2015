@@ -26,7 +26,7 @@ utils.formatNumber = (input, decimalPoints = 0) ->
   input = parseFloat input
   if decimalPoints
     wholePart = Math.floor input
-    decimalPart = input % 1
+    decimalPart = Math.abs input % 1
     wholePart = insertThousandSeparator wholePart
     decimalPart = Math.round decimalPart * Math.pow 10, decimalPoints
     decimalPart = decimalPart.toString()
