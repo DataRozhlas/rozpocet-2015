@@ -10,10 +10,10 @@ class ig.DeptList
       ..range [14 40]
     @colorScale = d3.scale.quantize!
       ..domain [-0.23 0.23]
-      ..range <[#d73027 #f46d43 #fdae61 #fee08b #d9ef8b #a6d96a #66bd63 #1a9850]>
+      ..range <[0 1 2 3 4 5 6 7]>
 
     @element.selectAll \div.department .data @urady .enter!append \div
-      ..attr \class \department
+      ..attr \class ~> "department color-#{@colorScale it.diff}"
       ..append \h2
       ..append \h3
         ..html (.nazev)
@@ -23,7 +23,6 @@ class ig.DeptList
           ..attr \class \sum
           ..style \width ~> "#{@scale it.sum}px"
           ..style \height ~> "#{@scale it.sum}px"
-          ..style \background-color ~> @colorScale it.diff
         ..append \h4
           ..classed \bigEnough -> it.sum > 30 * 1e9
           ..html -> "#{toNiceNumber it.sum}"
