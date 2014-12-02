@@ -39,6 +39,31 @@ class ig.DeptList
               sign = if it.diff > 0 then "+" else "&minus;"
               "#{sign}#{ig.utils.formatNumber d * 100, 1} %"
           ..style \font-size ~> "#{@fontScale it.sum}px"
+      ..append \div
+        ..attr \class \details
+        ..append \table
+          ..append \tbody
+            ..selectAll \tr .data (.polozky) .enter!append \tr
+              ..append \th
+                ..append \div
+                  ..attr \class ~> "amount color-#{@colorScale it.diff}"
+                  ..style \width ~> "#{@scale it.value}px"
+                  ..style \height ~> "#{@scale it.value}px"
+                ..append \span
+                  ..attr \class \nazev
+                  ..html (.nazev)
+                  ..attr \title (.nazev)
+              ..append \td
+                ..attr \class \value
+                  ..append \span
+                    ..attr \class \rozpocet
+                    ..html ~> toNiceNumber it.value
+                  ..append \span
+                    ..attr \class -> "diff " + if it.diff > 0 then "positive" else "negative"
+                    ..html ->
+                      d = Math.abs it.diff
+                      sign = if it.diff > 0 then "+" else "&minus;"
+                      "#{sign}#{ig.utils.formatNumber d * 100, 1} %"
 
 toNiceNumber = (value) ->
   if value >= 1e9
