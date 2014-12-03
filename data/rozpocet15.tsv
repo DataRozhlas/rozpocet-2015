@@ -5,20 +5,23 @@ cislo	kapitola	2014	2015
 	Celkové výdaje na areál Pražského hradu a zámku Lány	210405000	210267068
 	Celkové výdaje na lesní hospodářství	32500000	68275000
 302	Poslanecká sněmovna Parlamentu	1125936000	1068103340
+	Výdaje Poslanecké sněmovny Parlamentu ČR	1125936000	1068103340
 303	Senát Parlamentu	522675000	519447409
+	Výdaje Senátu Parlamentu ČR	522675000	519447409
 304	Úřad vlády České republiky	740265318	888818264
-	výdaje vlastního Úřadu vlády ČR	539670077	567616266
-	výdaje spojené s činností poradních orgánů vlády	200595241	321201998
-305	Bezpečnostní informační služba	136300000	1207324000
+	Výdaje vlastního Úřadu vlády ČR	539670077	567616266
+	Výdaje spojené s činností poradních orgánů vlády	200595241	321201998
+305	Bezpečnostní informační služba	1161992000	1207324000
+	Výdaje na zabezpečení plnění úkolů Bezpečnostní informační služby	1161992000	1207324000
 306	Ministerstvo zahraničních věcí	5936230765	6378802385
-	transformační spolupráce	50000000	61000000
-	humanitární pomoc	73000000	73000000
-	příspěvky mezinárodním organizacím a peněžní dary vybraným institucím do zahraničí	1354758189	1552583189
-	podpora českého kulturního dědictví v zahraničí	15000000	15000000
-	zahraniční vysílání rozhlasu	25000000	27000000
-	vrcholné návštěvy	20185000	20185000
-	bezpečnostní a biometrické prvky v cestovních pasech a cestovních dokladech       	47300000	47300000
-	ostatní výdaje na plnění úkolů Ministerstva zahraničních věcí	4350987576	4582734196
+	Transformační spolupráce	50000000	61000000
+	Humanitární pomoc	73000000	73000000
+	Příspěvky mezinárodním organizacím a peněžní dary vybraným institucím do zahraničí	1354758189	1552583189
+	Podpora českého kulturního dědictví v zahraničí	15000000	15000000
+	Zahraniční vysílání rozhlasu	25000000	27000000
+	Vrcholné návštěvy	20185000	20185000
+	Bezpečnostní a biometrické prvky v cestovních pasech a cestovních dokladech       	47300000	47300000
+	Ostatní výdaje na plnění úkolů Ministerstva zahraničních věcí	4350987576	4582734196
 307	Ministerstvo obrany	42721421033	43783137234
 	Zajištění obrany ČR silami Armády ČR	23045626457	24720520029
 	Vytváření a rozvoj systému obrany státu 	8352417688	8747021639
@@ -28,10 +31,11 @@ cislo	kapitola	2014	2015
 	Zajištění dávek důchodového pojištění	4267200000	4240000000
 	Zajištění ostatních sociálních dávek	2781600000	2757000000
 	Zajištění státní sportovní reprezentace	128944500	158695937
-308	Národní bezpečnostní úřad	307809136	325636636
-	výdaje na zabezpečení plnění úkolů Národního centra kybernetické bezpečnosti	61457000	67381258
-	ostatní výdaje na zabezpečení plnění úkolů Národního bezpečnostního úřadu	246352136	258255378
+308	Národní bezpečnostní úřad	309882897	325636636
+	Národní centrum kybernetické bezpečnosti	61546202	67381258
+	Ostatní výdaje na zabezpečení plnění úkolů Národního bezpečnostního úřadu	248336695	258255378
 309	Kancelář veřejného ochránce práv	97407000	111225036
+		97407000	111225036
 312	Ministerstvo financí	16984939576	17288182978
 	Daňová správa zajišťovaná finančními orgány	8393663742	9040750967
 	Výdaje na zabezpečení plnění úkolů ústředního orgánu	2538805519	2332898376
@@ -85,10 +89,10 @@ cislo	kapitola	2014	2015
 	Dotace pro společné programy (projekty) EU a ČR	13990806914	5832105878
 	Ostatní dotace pro Státní fond dopravní infrastruktury	18400000000	19100000000
 	Ostatní výdaje spojené s dopravní politikou státu	3447846918	3096877472
-328	Český telekomunikační úřad	747505814	770413586
+328	Český telekomunikační úřad	748458365	770413586
 	Výdaje na úhradu ztráty z poskytování univerzální služby - zvláštní ceny	110000000	105000000
 	Výdaje na úhradu ztráty z poskytování univerzální služby - čisté náklady	58000000	53000000
-	Ostatní výdaje na zabezpečení plnění úkolů Českého telekomunikačního úřadu	579505814	612413586
+	Ostatní výdaje na zabezpečení plnění úkolů Českého telekomunikačního úřadu	580458365	612413586
 329	Ministerstvo zemědělství	52373198114	53755293193
 	Dotace Státnímu zemědělskému intervenčnímu fondu	38046384000	38763711000
 	Ostatní výdaje na podporu agropotravinářského komplexu	2933033000	3996700000
@@ -135,38 +139,48 @@ cislo	kapitola	2014	2015
 	Zdravotnické programy	693639303	651643812
 	Ostatní činnosti ve zdravotnictví	641757101	621527000
 336	Ministerstvo spravedlnosti	22412838916	23392507109
-	platy soudců	3406165670	3755351600
-	platy státních zástupců	1246833134	1373138800
-	ostatní výdaje justiční části	9491372266	9639828910
-	Výdaje vězeňská část	8268467846	8624187799
-343	Úřad pro ochranu osobních údajů	158485880	148848507
-344	Úřad průmyslového vlastnictví	161394153	168019930
-345	Český statistický úřad	930807114	928609440
-346	Český úřad zeměměřický a katastrální	2775535670	2827606698
+	Platy soudců	3406165670	3755351600
+	Platy státních zástupců	1246833134	1373138800
+	Ostatní výdaje justiční části	9491372266	9639828910
+	Vězeňská část	8268467846	8624187799
+343	Úřad pro ochranu osobních údajů	156850502	148848507
+	Výdaje na zabezpečení plnění úkolů Úřadu pro ochranu osobních údajů	156850502	148848507
+344	Úřad průmyslového vlastnictví	162434737	168019930
+	Výdaje na zabezpečení plnění úkolů Úřadu průmyslového vlastnictví	162434737	168019930
+345	Český statistický úřad	938097679	928609440
+	Výdaje na zabezpečení plnění úkolů Českého statistického úřadu	938097679	928609440
+346	Český úřad zeměměřický a katastrální	2801096197	2827606698
+	Výdaje na zabezpečení plnění úkolů Českého úřadu zeměměřického a katastrálního	2801096197	2827606698
 348	Český báňský úřad	123450550	136701530
-349	Energetický regulační úřad	199080780	238216789
-353	Úřad pro ochranu hospodářské soutěže	245124240	237335429
+	Výdaje na zabezpečení plnění úkolů Českého báňského úřadu	125276898	136701530
+349	Energetický regulační úřad	217886913	238216789
+	Výdaje na zabezpečení plnění úkolů Energetického regulačního úřadu	217886913	238216789
+353	Úřad pro ochranu hospodářské soutěže	246411003	237335429
+	Výdaje na zabezpečení plnění úkolů Úřadu pro ochranu hospodářské soutěže	246411003	237335429
 355	Ústav pro studium totalitních režimů	155333012	163145865
 	Výdaje na zabezpečení plnění úkolů vlastního Ústavu pro studium totalitních režimů	85699807	81530222
 	Výdaje na zabezpečení plnění úkolů Archivu bezpečnostních složek	69633205	81615643
 358	Ústavní soud	167529080	167425239
-	platy ústavních soudců	20266000	20468800
-	náhrady výdajů spojených s výkonem funkce (zákon č. 236/1995 Sb.)	2888000	0
-	ostatní výdaje na zajištění činnosti Ústavního soudu	144375080	146956439
-361	Akademie věd České republiky	4561331000	4522355819
-	Infrastruktura výzkumu	4411841000	4522355819
-372	Rada pro rozhlasové a televizní vysílání	55466500	54816604
-374	Správa státních hmotných rezerv	2161799020	2246616853
-	Civilní připravenost na krizové stavy	2142019020	2226946853
+	Platy ústavních soudců	20266000	20468800
+	Náhrady výdajů spojených s výkonem funkce (zákon č. 236/1995 Sb.)	2888000	0
+	Ostatní výdaje na zajištění činnosti Ústavního soudu	144375080	146956439
+361	Akademie věd České republiky	4454856000	4522355819
+	Infrastruktura výzkumu	4454856000	4522355819
+372	Rada pro rozhlasové a televizní vysílání	55547292	54816604
+	Výdaje na zabezpečení plnění úkolů Rady pro rozhlasové a televizní vysílání  celkem	55547292	54816604
+374	Správa státních hmotných rezerv	2098341660	2246616853
+	Civilní připravenost na krizové stavy	2078561660	2226946853
 	Zabezpečení potřeb ozbrojených sil	19780000	19670000
-375	Státní úřad pro jadernou bezpečnost	380840100	360657028
-376	Generální inspekce bezpečnostních sborů	277755320	267631978
-	Výdaje na zabezpečení plnění úkolů Generální inspekce bezpečnostních sborů	271355320	262031978
+375	Státní úřad pro jadernou bezpečnost	380235623	360657028
+	Výdaje na zabezpečení plnění úkolů Státního úřadu pro jadernou bezpečnost	380235623	360657028
+376	Generální inspekce bezpečnostních sborů	281447704	267631978
+	Výdaje na zabezpečení plnění úkolů Generální inspekce bezpečnostních sborů	275047704	262031978
 	Sociální dávky	6400000	5600000
-377	Technologická agentura České republiky	2566415000	2864898160
+377	Technologická agentura České republiky	2966415000	2864898160
 	Výdaje Kanceláře Technologické agentury ČR	102001000	112387160
-	Dotace jiným subjektům	2464414000	2752511000
+	Dotace jiným subjektům	2864414000	2752511000
 381	Nejvyšší kontrolní úřad	498757000	507428172
+	Výdaje na zabezpečení plnění úkolů Nejvyššího kontrolního úřadu	498757000	507428172
 396	Obsluha státního dluhu	66000000000	64466315805
 	Obsluha státního dluhu	66000000000	64466315805
 397	Operace státních finančních aktiv	1642200000	1814200000
